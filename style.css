@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    color: #000;
+}
+
+
+
+.portfolio {
+    background-color: #fff;
+    margin-right: 270px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    background-color: #fff;
+}
+
+ul li {
+    background-color: #fff;
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.cta {
+    padding: 15px 25px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #F64F59
+}
+
+.btn {
+    border: none;
+    background-color: #fff;
+}
+
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2E4E8
+}
+
+.left {
+    width: 425px;
+    margin-left: 150px;
+}
+
+.small-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #F64F59;
+    margin-bottom: 30px
+}
+
+.large-text {
+    font-size: 50px;
+    color: #2E2252;
+}
+ 
+.text {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.learn-more {
+    padding: 11px 15px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #F64F59;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.hire-me {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #F64F59;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #F64F59;
+}
+
+.right {
+    object-fit: cover;
+    width: 800px;
+}
+
+.bg-img {
+    transform: scaleX(-1)
+}
+
+.section-2 {
+    display: flex;
+    margin-top: 100px
+}
+
+.content-left {
+    width: 425px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-right {
+    font-weight: bold;
+    font-size: 25px;
+    width: 230px;
+}
+
