@@ -18,8 +18,12 @@ header {
 
 .portfolio {
     background-color: #fff;
-    margin-right: 270px;
+    margin-right: 1100px;
     font-weight: bold;
+}
+
+nav {
+    margin-right: 50px;
 }
 
 ul {
@@ -56,6 +60,8 @@ ul li a {
 .btn {
     border: none;
     background-color: #fff;
+    margin-right: 30px;
+
 }
 
 
@@ -115,6 +121,7 @@ ul li a {
 .right {
     object-fit: cover;
     width: 800px;
+    margin-left: 170px;
 }
 
 .bg-img {
@@ -123,12 +130,17 @@ ul li a {
 
 .section-2 {
     display: flex;
-    margin-top: 100px
+    /*margin-top: 100px;*/
+    flex-direction: row;
+    /*align-items: center;
+    justify-content: center;*/
+    max-width:  1024px;
+    margin: 100px auto;
 }
 
 .content-left {
-    width: 425px;
-    margin-left: 150px;
+    width: 450px;
+    /*margin-left: 150px;*/
     font-weight: bold;
     font-size: 20px;
 }
@@ -137,5 +149,6 @@ ul li a {
     font-weight: bold;
     font-size: 25px;
     width: 230px;
+    margin-left: 170px;
 }
 
